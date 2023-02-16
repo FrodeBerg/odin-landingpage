@@ -28,7 +28,8 @@ body > * {
 }
 
 .introduction, 
-.header {
+.header,
+.footer {
     background-color: #1F2937;
 }
 
@@ -174,4 +175,11 @@ img {
 
 .action button {
     border: solid #F9FAF8 2px;
+}
+
+.footer {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
 }
