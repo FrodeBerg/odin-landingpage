@@ -154,3 +154,24 @@ img {
 .quoter {
     align-self: flex-end;
 }
+
+.action {
+    background-color: #F9FAF8;
+    align-items: center;
+}
+
+.action > div {
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #3882F6;
+    height: 60%;
+    flex: 1;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action button {
+    border: solid #F9FAF8 2px;
+}
