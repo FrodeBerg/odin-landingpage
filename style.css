@@ -133,8 +133,24 @@ img {
 
 .container div p {
     color: #1F2937;
+    text-align: center;
 }
 
 .quote {
     flex: 0.8;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote p {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quoter {
+    align-self: flex-end;
 }
